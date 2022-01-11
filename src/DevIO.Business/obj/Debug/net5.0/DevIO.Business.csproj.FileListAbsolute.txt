@@ -1,0 +1,12 @@
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.deps.json
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net5.0\ref\DevIO.Business.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.pdb
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.AssemblyInfoInputs.cache
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.AssemblyInfo.cs
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\ref\DevIO.Business.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.pdb
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.AssemblyReference.cache
