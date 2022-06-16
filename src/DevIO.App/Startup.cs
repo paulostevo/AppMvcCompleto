@@ -36,7 +36,7 @@ namespace DevIO.App
 
             services.AddScoped<MeuDbContext>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
-            services.AddScoped<IFornecedorRespository, FornecedorRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
 
 

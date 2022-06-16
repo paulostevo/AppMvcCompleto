@@ -13,11 +13,11 @@ namespace DevIO.App.Controllers
     public class ProdutosController : BaseController
     {
         private readonly IProdutoRepository _produtoRepository;
-        private readonly FornecedorRepository _fornecedorRepository;
+        private readonly IFornecedorRepository  _fornecedorRepository;
         private readonly IMapper _mapper;
         public ProdutosController(IProdutoRepository produtoRepository,
                                   IMapper mapper,
-                                  FornecedorRepository fornecedorRepository)
+                                  IFornecedorRepository fornecedorRepository)
         {
             _produtoRepository = produtoRepository;
             _mapper = mapper;

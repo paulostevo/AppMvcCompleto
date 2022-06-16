@@ -13,10 +13,10 @@ namespace DevIO.App.Controllers
     public class FornecedoresController : BaseController
     {
         
-        private readonly IFornecedorRespository _fornecedorRepository;
+        private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IMapper _mapper;
 
-        public FornecedoresController(IFornecedorRespository fornecedorRespository, IMapper mapper)
+        public FornecedoresController(IFornecedorRepository fornecedorRespository, IMapper mapper)
         {
             _fornecedorRepository = fornecedorRespository;
             _mapper = mapper;

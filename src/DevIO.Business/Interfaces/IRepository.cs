@@ -10,8 +10,8 @@ namespace DevIO.Business.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
-        Task Adicionar(TEntity entity);
-        Task<TEntity> ObterPorId(Guid id);
+        Task Adicionar(TEntity entity);  // VOID
+        Task<TEntity> ObterPorId(Guid id); // Recebe um objeto do tipo tentity ou uma lista como no método obtertodos
         Task<List<TEntity>> ObterTodos();
         Task Atualizar(TEntity entity);
         Task Remover(Guid id);

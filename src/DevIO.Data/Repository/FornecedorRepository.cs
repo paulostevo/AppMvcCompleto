@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DevIO.Data.Repository
 {
-    public class FornecedorRepository : Repository<Fornecedor>, IFornecedorRespository
+    public class FornecedorRepository : Repository<Fornecedor>, IFornecedorRepository
     {
         public FornecedorRepository(MeuDbContext context) : base(context)
         {
@@ -20,7 +20,7 @@ namespace DevIO.Data.Repository
         {
             return await Db.Fornecedores.AsNoTracking()
                 .Include(e => e.Endereco)
-                .FirstOrDefaultAsync(p => p.Id == id);
+                .FirstOrDefaultAsync(p => p.Id == id);  // firstordefault só retorna o primeiro, se for nulo, retorna nulo. SingleOrDefault se for nulo, ele retorna erro
         }
 
         public async Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid id)
