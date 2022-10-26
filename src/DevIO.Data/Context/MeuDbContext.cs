@@ -21,11 +21,11 @@ namespace DevIO.Data.Context
             foreach (var property in modelBuilder.Model.GetEntityTypes()
                          .SelectMany(e => e.GetProperties()
                              .Where(p => p.ClrType == typeof(string))))
-                property.SetColumnType("varchar(100)");  // Caso esqueça de mapear ele cria com varchar(100)
+                property.SetColumnType("varchar(100)");  // Caso esqueça de mapear ele cria o campo com varchar(100)
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MeuDbContext).Assembly);
 
-            foreach (var relationship in modelBuilder.Model.GetEntityTypes()
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes() // Desativar o cascate delete
                          .SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
 
             base.OnModelCreating(modelBuilder);

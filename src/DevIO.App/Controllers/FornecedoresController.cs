@@ -14,12 +14,16 @@ namespace DevIO.App.Controllers
     {
         
         private readonly IFornecedorRepository _fornecedorRepository;
+        private readonly IEnderecoRepository _enderecoRepository;
         private readonly IMapper _mapper;
 
-        public FornecedoresController(IFornecedorRepository fornecedorRespository, IMapper mapper)
+        public FornecedoresController(IFornecedorRepository fornecedorRespository, 
+                                      IMapper mapper,
+                                      IEnderecoRepository enderecoRepository)
         {
             _fornecedorRepository = fornecedorRespository;
             _mapper = mapper;
+            _enderecoRepository = enderecoRepository;
         }
 
         public async Task<IActionResult> Index()
@@ -99,6 +103,7 @@ namespace DevIO.App.Controllers
 
             if (fornecedorViewModel == null) return NotFound();
 
+            await _enderecoRepository.Remover(fornecedorViewModel.Endereco.Id);
             await _fornecedorRepository.Remover(id);
             return RedirectToAction(nameof(Index));
         }

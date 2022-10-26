@@ -6,7 +6,6 @@ C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\DevIO.App.runtimeconfig.json
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\DevIO.App.runtimeconfig.dev.json
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\DevIO.App.dll
-C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\ref\DevIO.App.dll
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\DevIO.App.pdb
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\DevIO.App.Views.dll
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\DevIO.App.Views.pdb
@@ -194,3 +193,6 @@ C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\libman.json
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\refint\DevIO.App.dll
