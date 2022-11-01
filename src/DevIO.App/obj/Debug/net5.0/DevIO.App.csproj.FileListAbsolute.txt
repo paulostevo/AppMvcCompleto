@@ -196,3 +196,5 @@ C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\libman.json
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\refint\DevIO.App.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Fornecedores\_DetalhesEndereco.cshtml.g.cs
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Produtos\_ListaProdutos.cshtml.g.cs
