@@ -21,12 +21,27 @@ namespace DevIO.App
 {
     public class Startup
     {
-        public IConfiguration configuration { get; }
-
         public IConfiguration Configuration { get; }
+        public Startup(IHostEnvironment hostEnvironment)
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(hostEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
+                .AddEnvironmentVariables();
+
+            if (hostEnvironment.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+            }
+
+            Configuration = builder.Build();
+        }
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentityConfiguration(Configuration);
+
             services.AddDbContext<MeuDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -38,8 +53,7 @@ namespace DevIO.App
             services.ResolveDependencies();
 
             services.AddDatabaseDeveloperPageExceptionFilter();
-            services.AddIdentityConfiguration(Configuration);
-            services.AddRazorPages();
+            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
