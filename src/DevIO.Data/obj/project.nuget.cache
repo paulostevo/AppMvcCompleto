@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mjhmIpVra6YfHtEqIIz2yNeqNidUDt0iAT/1SBWPVD4VfvShPnDsHwlyrJS9115rDdCOCU/VCvOma4NxY9K8lQ==",
+  "dgSpecHash": "Wdw2M2jcG6BmLLjFNsrY84oN3IAFm1cjUs3ut9GePl/+2GpirkLJhMqaimqJHZWCcWYjYUUuypned6sU0rLMEw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\MinhaAppMvcCompletaFinal\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\paulo\\.nuget\\packages\\fluentvalidation\\11.5.0\\fluentvalidation.11.5.0.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
