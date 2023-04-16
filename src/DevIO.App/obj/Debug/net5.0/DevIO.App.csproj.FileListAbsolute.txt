@@ -201,3 +201,5 @@ C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Fornecedores\_AtualizarEndereco.cshtml.g.cs
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\appsettings.Production.json
 C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\appsettings.Staging.json
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\FluentValidation.dll
+C:\Dev\MinhaAppMvcCompletaFinal\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
